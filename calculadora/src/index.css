@@ -1,0 +1,24 @@
+@font-face{
+  font-family: 'RobotoMono';
+  src: url('./fontes/RobotoMono-Bold.ttf')
+}
+
+*{
+  font-family: 'RobotoMono', monospace;
+}
+
+body{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+  background: linear-gradient(to right, rgb(15, 12, 41), rgb(48, 43, 99), rgb(36, 36, 62));
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
